@@ -1,0 +1,78 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #e5e5e5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard__container {
+  width: 748px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  margin-top: 80px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #4a4a4a;
+  margin-bottom: 24px;
+}
+
+button {
+  border: 0px;
+  padding: 10px 20px;
+  background: inherit;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  border: 1px solid #d9d9d9;
+  color: #4a4a4a;
+  cursor: pointer;
+}
+
+.percentage_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: flex-start;
+  margin-top: 40px;
+}
+
+.percentage {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  // padding-right: 50px;
+}
+
+.percentage_content {
+  margin-left: 8px;
+}
+.percentage__heading {
+  font-weight: 600;
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+.percentage__text {
+  font-weight: 600;
+  font-size: 12px;
+  color: #a0b0b9;
+}
