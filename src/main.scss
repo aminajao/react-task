@@ -26,6 +26,11 @@ p {
   padding: 40px;
   margin-top: 80px;
 }
+.flex {
+  display: flex;
+
+  align-items: center;
+}
 h1 {
   font-weight: 600;
   font-size: 22px;
@@ -75,4 +80,86 @@ button {
   font-weight: 600;
   font-size: 12px;
   color: #a0b0b9;
+}
+
+.metric--container {
+  display: flex;
+  padding: 40px 0;
+}
+.metric__content--container {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eff1f4;
+}
+.metric__icon--container {
+  margin-right: 25px;
+}
+.metric__content--heading--container {
+  display: flex;
+}
+.metric__content--heading {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+.metric__content--key {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #4a4a4a;
+  margin-bottom: 5px;
+}
+.metric__content--value {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4a4a4a;
+  margin-left: 10px;
+}
+.metric__content--key2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #a0b0b9;
+}
+.metric__content--value2 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #a0b0b9;
+  margin-left: 10px;
+}
+.text__secondary {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #a0b0b9;
+}
+.metric__help--container {
+  display: flex;
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #4a4a4a;
+
+  & > p {
+    margin-right: 5px;
+  }
+  & > span {
+    color: #2196f3;
+  }
+}
+
+.tag {
+  background-color: #8bc34a;
+  padding: 1px 10px;
+  font-size: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: #fff;
 }

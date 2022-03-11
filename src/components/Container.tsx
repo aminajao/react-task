@@ -1,5 +1,6 @@
 import React from "react";
 import { Percentage } from "./Percentage";
+import Main from "./Main";
 
 // const errorCode = {0: 1256, 1:}
 const Container = () => {
@@ -17,9 +18,9 @@ const Container = () => {
         <Percentage />
         <Percentage />
       </div>
-      {/* <div style={{width: `${}`}}> */}
-
-      {/* </div>   */}
+      <div>
+        <Main />
+      </div>
     </div>
   );
 };
